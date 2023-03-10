@@ -90,3 +90,47 @@ arbre_prefixe.postfixe()
 # Test de la lecture du infixe
 print("Test de la lecture infixe  :")
 arbre_prefixe.infixe()
+
+
+
+
+
+
+
+
+
+# Test pour le DS
+a = 15 
+b = 'moutons'
+c = 32
+d ='vaches'
+e = 15
+f = 'poules'
+
+print ("J'ai %i %s, %i %s et %i %s"%(c,b,e,f,a,PendingDeprecationWarning))
+
+i = 0
+j = 5
+k = 2
+print (range(i,j,k))
+
+def ope1 (a,b,c):
+    return a+b*c
+
+def ope2 (a,b,c):
+    return a*2+b
+
+def ope3 (a,b,c):
+    return c*3-b
+
+i = 2
+j = 2
+k = 3
+
+if i > 5:
+    resultat = ope1(1, j, k)
+elif j < 3:
+    resultat = ope2 (j, k, i)
+else:
+    resultat = ope3 (k, j, i)
+print (resultat)

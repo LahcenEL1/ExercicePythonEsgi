@@ -108,3 +108,5 @@ class AB:
                 return est_gauche_equilibre and est_droite_equilibre
             else:
                 return False
+            
+            
